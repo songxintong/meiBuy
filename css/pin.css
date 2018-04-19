@@ -1,0 +1,29 @@
+.circle {
+width: 200px;
+height: 200px;
+position: absolute;
+border-radius: 50%;
+background: #0cc;
+}
+  
+.left,.right{
+width:200px;
+height:200px;
+position: absolute;
+top: 0px;left: 0px;
+}
+.pie_left, .pie_right{
+width:200px;
+height:200px;
+position: absolute;
+border-radius: 50%;
+top: 0px;left: 0px;
+background: red;
+}
+  
+.pie_right,.right {
+clip:rect(0,auto,auto,100px);
+}
+.pie_left , .left{
+clip:rect(0,100px,auto,0);
+}

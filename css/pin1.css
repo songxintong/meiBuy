@@ -1,0 +1,12 @@
+ .circle{
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background:linear-gradient(60deg, black 63.39%, transparent 63.39%),linear-gradient(-60deg, black 63.39%, transparent 63.39%) 100% 0,linear-gradient(-60deg, transparent 37%, yellow 37%) 0 100%,linear-gradient(60deg, transparent 37%, yellow 37%) 100% 100%,black linear-gradient(yellow, yellow) 50% 0;
+            background-repeat: no-repeat;
+            background-size: 50% 50%;
+            
+            border-radius: 50%;
+            margin: auto;
+ 
+        }
